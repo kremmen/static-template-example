@@ -1,0 +1,18 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- await include('../partials/head', params) %>
+</head>
+<body class="container">
+  <header>
+    <%- await include('../partials/header') %>
+  </header>
+  <main style='padding: 0 20px 20px 20px'>
+    <%- await include(page) %>
+  </main>
+  <footer>
+    <%- await include('../partials/footer.ejs') %>
+  </footer>
+</body>
+</html>

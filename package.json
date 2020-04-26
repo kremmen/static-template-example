@@ -1,0 +1,19 @@
+{
+  "name": "static-template-example",
+  "version": "1.0.0",
+  "description": "A static website template using EJS and Node.js",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && http-server build & npm run watch:ejs",
+    "watch:ejs": "watch 'npm run build' views",
+    "test": "test"
+  },
+  "author": "kremmen",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "http-server": "^0.12.1",
+    "watch": "^1.0.2"
+  }
+}
