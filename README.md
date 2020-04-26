@@ -13,14 +13,13 @@ I like the simplicity of EJS and the docs gave me the answers that I needed. Alt
 
     npm run build
 
-    *The generated files will be written to the build directory.*
-
+_The generated files will be written to the build directory._
 
 ### Run in dev mode with `http-server`    
 
     npm run dev
 
-    *Now you can visit http://localhost:8080 to view the generated pages*  
+_Now you can visit http://localhost:8080 to view the generated pages._
 
 
 
@@ -28,6 +27,9 @@ I like the simplicity of EJS and the docs gave me the answers that I needed. Alt
 I had a few static content pages I needed to maintain and wanted a light-weight template engine to take care of the common content e.g. headers and footers.   There are a lot of great template engines out their but none of them as light-weight as what I wanted. I also could not find a straight forward example for putting together static templates in JavaScript as most of the focus is on dynamic templates.
 
 ### Acknowledgements 
+
+The following articles helped me put together this example:
+
 https://www.jamesedwards.name/ejs-render-file
 
 https://scotch.io/tutorials/use-ejs-to-template-your-node-application
