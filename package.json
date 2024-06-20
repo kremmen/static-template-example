@@ -12,7 +12,7 @@
   "author": "kremmen",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^3.1.2",
+    "ejs": "^3.1.10",
     "http-server": "^0.12.1",
     "watch": "^1.0.2"
   }
